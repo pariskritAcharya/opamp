@@ -1,9 +1,9 @@
-# opamp
+# OP AMP
 
 A project which has simulation, explanation about opamp and a quiz at the end 
 
 
-## inputs 
+## Inputs 
 
 1. to run web view 
 
