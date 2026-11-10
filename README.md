@@ -8,7 +8,8 @@ A project which has simulation, explanation about opamp and a quiz at the end
 1. to run web view 
 
     ```cd e:\codding\BE\opAMP\opamp\build\web
-    python -m http.server 8000```
+    python -m http.server 8000
+    ```
 
 
 2. to view this webpage in mobile in same wifi :
