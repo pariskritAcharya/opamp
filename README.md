@@ -17,4 +17,4 @@ A project which has simulation, explanation about opamp and a quiz at the end
 
 3. Download and run APK
 
-4. just flutter run 
+4. just ```flutter run``` 
