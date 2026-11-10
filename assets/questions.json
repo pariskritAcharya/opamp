@@ -1,0 +1,252 @@
+[
+  {
+    "questionText": "What is the ideal input impedance of an Operational Amplifier?",
+    "options": ["Zero", "Infinite", "100 Ohms", "1 MegaOhm"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "In an Inverting Amplifier, if R1 = 10kΩ and R2 = 20kΩ, what is the voltage gain?",
+    "options": ["-2", "2", "-0.5", "3"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "What is the phase difference between the input and output in a Non-Inverting Amplifier?",
+    "options": ["90°", "180°", "0° (In-phase)", "270°"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "Which pin is the Inverting input on a standard 741 Op-Amp IC?",
+    "options": ["Pin 2", "Pin 3", "Pin 4", "Pin 6"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "The voltage gain (Av) formula for a Non-Inverting Amplifier is:",
+    "options": ["Av = -R2/R1", "Av = 1 + (R2/R1)", "Av = R1/R2", "Av = 1 - (R2/R1)"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "What is the ideal output impedance of an Operational Amplifier?",
+    "options": ["Zero", "Infinite", "100 Ohms", "1 MegaOhm"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "What is the ideal open-loop voltage gain of an Op-Amp?",
+    "options": ["Zero", "1", "1000", "Infinite"],
+    "correctIndex": 3
+  },
+  {
+    "questionText": "What is the ideal bandwidth of an Operational Amplifier?",
+    "options": ["0 Hz", "100 kHz", "1 MHz", "Infinite"],
+    "correctIndex": 3
+  },
+  {
+    "questionText": "The term CMRR stands for:",
+    "options": ["Common Mode Rejection Ratio", "Current Mode Rejection Ratio", "Common Mode Resonance Ratio", "Current Mode Resonance Ratio"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "An ideal Op-Amp has a CMRR of:",
+    "options": ["Zero", "1", "Infinite", "Depends on the circuit"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What is the primary function of a Voltage Follower?",
+    "options": ["Voltage amplification", "Current attenuation", "Impedance matching (Buffer)", "Phase inversion"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "The voltage gain of a basic Voltage Follower (Unity Gain Buffer) is:",
+    "options": ["-1", "0", "1", "Infinite"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "Slew rate is defined as the:",
+    "options": ["Maximum rate of change of input voltage", "Maximum rate of change of output voltage", "Minimum rate of change of output voltage", "Gain bandwidth product"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The unit of Slew Rate is typically expressed in:",
+    "options": ["V/s", "V/ms", "V/µs", "A/µs"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "Which pin represents the Non-Inverting input on a standard 741 Op-Amp IC?",
+    "options": ["Pin 2", "Pin 3", "Pin 4", "Pin 6"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "Which pin is the Output on a standard 741 Op-Amp IC?",
+    "options": ["Pin 5", "Pin 6", "Pin 7", "Pin 8"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "On a standard 741 IC, Pin 7 is used for:",
+    "options": ["Ground", "Negative Power Supply (-Vee)", "Positive Power Supply (+Vcc)", "Output"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What does the 'Virtual Ground' concept imply in an inverting amplifier?",
+    "options": ["The non-inverting terminal is physically grounded.", "The inverting terminal voltage is forced to nearly zero volts.", "Both input terminals are connected to ground.", "The output is connected to ground."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "If an Op-Amp is used without any feedback (open-loop), it typically functions as a:",
+    "options": ["Buffer", "Integrator", "Comparator", "Oscillator"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "In an Integrator circuit, what component is placed in the feedback loop?",
+    "options": ["Resistor", "Inductor", "Capacitor", "Diode"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "In a Differentiator circuit, where is the capacitor placed?",
+    "options": ["In the feedback loop", "At the input before the resistor", "In parallel with the load", "At the non-inverting terminal"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "A Summing Amplifier is typically based on which configuration?",
+    "options": ["Inverting Amplifier", "Non-Inverting Amplifier", "Voltage Follower", "Difference Amplifier"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "Which type of feedback is most commonly used in amplifier circuits to ensure stability?",
+    "options": ["Positive feedback", "Negative feedback", "Zero feedback", "Infinite feedback"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "Applying negative feedback to an Op-Amp:",
+    "options": ["Increases open-loop gain", "Decreases bandwidth", "Reduces distortion and increases stability", "Increases output impedance"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "Positive feedback in an Op-Amp is primarily used to design:",
+    "options": ["Voltage buffers", "Oscillators and Schmitt Triggers", "Audio amplifiers", "Active filters"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The input offset voltage is defined as:",
+    "options": ["The voltage required at the input to force the output to zero.", "The maximum voltage the input can handle.", "The voltage difference between +Vcc and -Vee.", "The voltage across the feedback resistor."],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "A Schmitt Trigger is an application of an Op-Amp that uses:",
+    "options": ["Negative feedback", "Positive feedback", "No feedback", "An inductor in the feedback loop"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "What is the primary advantage of an Active Filter over a Passive Filter?",
+    "options": ["Requires no power supply", "Can provide voltage gain and avoids bulky inductors", "Uses only resistors and capacitors", "Is strictly used for very high frequencies"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "A Transimpedance Amplifier converts:",
+    "options": ["Voltage to Current", "Current to Voltage", "Voltage to Voltage", "Current to Current"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The typical Slew Rate of a standard LM741 Op-Amp is approximately:",
+    "options": ["0.5 V/µs", "10 V/µs", "50 V/µs", "100 V/µs"],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "In an ideal Op-Amp, the current flowing into the inverting and non-inverting input terminals is:",
+    "options": ["Infinite", "Depends on the supply voltage", "Zero", "Equal to the output current"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What is a Zero-Crossing Detector?",
+    "options": ["A comparator with the reference voltage set to 0V.", "An amplifier that outputs 0V constantly.", "An integrator that removes DC bias.", "A circuit that generates sine waves."],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "A standard Instrumentation Amplifier usually consists of how many Op-Amps?",
+    "options": ["1", "2", "3", "4"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What is a key feature of an Instrumentation Amplifier?",
+    "options": ["Extremely high CMRR and high input impedance.", "Very low input impedance.", "Open-loop configuration.", "It only works with AC signals."],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "Which pins are used for 'Offset Null' on the 741 IC?",
+    "options": ["Pins 1 and 4", "Pins 1 and 5", "Pins 2 and 3", "Pins 6 and 7"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "What happens if the input voltage to an Op-Amp exceeds the supply voltage?",
+    "options": ["The Op-Amp amplifies it normally.", "The output is clipped at the saturation voltage limits.", "The Op-Amp automatically adjusts its gain.", "The bandwidth becomes infinite."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "To design a logarithmic amplifier, which component is typically placed in the feedback path?",
+    "options": ["A capacitor", "An inductor", "A diode or BJT", "A fixed resistor"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What happens to the bandwidth of an Op-Amp when negative feedback is applied?",
+    "options": ["It decreases.", "It increases.", "It remains the same.", "It becomes zero."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The Gain-Bandwidth Product (GBP) of an Op-Amp is:",
+    "options": ["Always changing depending on the input.", "A constant value for a specific Op-Amp.", "Equal to the slew rate.", "Usually around zero."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "If an Op-Amp has a Gain-Bandwidth Product of 1 MHz, and a closed-loop gain of 10, what is its effective bandwidth?",
+    "options": ["10 kHz", "100 kHz", "1 MHz", "10 MHz"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "A Difference Amplifier acts as a subtractor. It amplifies:",
+    "options": ["The sum of two inputs.", "The difference between two inputs.", "Only the AC component of the input.", "The product of two inputs."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The concept of 'Virtual Short' implies that in a closed-loop ideal Op-Amp:",
+    "options": ["The inputs are physically wired together.", "The voltage difference between the two inputs is essentially zero.", "The output is shorted to ground.", "The input current is infinite."],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "Which of the following is NOT a typical application of an Op-Amp?",
+    "options": ["Analog to Digital Converter", "Voltage Regulator", "Active Filter", "AC Mains Power Generation"],
+    "correctIndex": 3
+  },
+  {
+    "questionText": "What causes 'thermal drift' in an Op-Amp?",
+    "options": ["Changes in temperature affecting component parameters.", "High frequency input signals.", "Excessive negative feedback.", "Using a high-value feedback resistor."],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "In an inverting summing amplifier with three equal input resistors (R) and a feedback resistor (R), the output voltage is:",
+    "options": ["V1 + V2 + V3", "-(V1 + V2 + V3)", "(V1 + V2 + V3) / 3", "- (V1 + V2 + V3) / 3"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "The mathematical formula for CMRR in decibels is:",
+    "options": ["10 log (Ad / Ac)", "20 log (Ad / Ac)", "20 log (Ac / Ad)", "10 log (Ac / Ad)"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "What does 'Ac' stand for in the CMRR formula?",
+    "options": ["Differential mode gain", "Common mode gain", "Alternating current", "Active capacitance"],
+    "correctIndex": 1
+  },
+  {
+    "questionText": "What type of power supply does a standard operational amplifier like the 741 usually require?",
+    "options": ["Single positive supply", "Single negative supply", "Dual (bipolar) power supply", "AC power supply"],
+    "correctIndex": 2
+  },
+  {
+    "questionText": "What is the typical use of an anti-log amplifier?",
+    "options": ["Converting logarithmic signals back to linear scale.", "Increasing the signal phase.", "Filtering high-frequency noise.", "Acting as a pure voltage buffer."],
+    "correctIndex": 0
+  },
+  {
+    "questionText": "What is the primary role of the 'Offset Null' pins?",
+    "options": ["To increase the bandwidth.", "To minimize or eliminate the DC output voltage when the input is zero.", "To increase the slew rate.", "To change the closed-loop gain."],
+    "correctIndex": 1
+  }
+]
